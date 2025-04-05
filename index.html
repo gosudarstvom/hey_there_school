@@ -4,7 +4,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Hi there school</title>
+	<title>Hi There School</title>
+	<link rel="icon" type="image/ico" href="./pictures/favicon.ico">
+	<!--<link rel="stylesheet" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="style.css"></noscript>-->
 	<link rel="stylesheet" href="style.css">
 	<script src="script.js" defer></script>	  
 	<meta name="description" content="Online English classes for kids ages 3-16 with professional teachers. Sign up for a free trial class today!">
@@ -12,137 +15,432 @@
 </head>
 
 <body>
-		<header>
-			<div class="header-container">
-				
-				<div class="header-column left">
-					<img src="pictures/group.png" alt="Website Logo" style="width: 200px;">
-					<h1>English Classes <br> 在线青少儿一对一英语课</h1>
-					<h4>For kids ages 3-16 <br>适合于 3-16 岁孩子</h4>
-					<h3>Free Trial Class! <br> 免费试听课！</h3>
-				</div>
-			  
-				<div class="header-column right">
-					<div class="text-container">
-						<h4>Contact Us:<br> 联系我们</h4>
-						<img src="pictures/Group 56.png" alt="Contact Info" style="width: 80%; max-width: 400px; margin-top: 1rem;">
-					</div>		 
-				</div>
-			  
+	<header>
+		<div class="logo_container">
+			<div class="inner_left_container">
+					<img src="pictures/Group.png" alt="web_logo" style="width: 300px;" loading="lazy">
 			</div>
-		</header>
-		
-		<nav>
-		  <div class="nav-container">
-				<div class="nav-column left">
-				  <a href="#home">Home</a>
-				</div>
-				
-				<div class="nav-column center">
-				  <a href="#services">Services</a>
-				</div>
-				
-				<div class="nav-column right">
-				  <a href="#contact">Contact</a>
-				</div>
-		  </div>
-		</nav>
 
-	<main class="main">
-
-		<div class="carousel-container">
-			<button class="carousel-btn prev" onclick="moveSlide(-1)">&#10094;</button>
-			<div class="carousel">
-				<img src="pictures/The_Unknown_Forest.jpeg" alt="The Unknown Forest">
-				<img src="pictures/CRAWN THELD.jpg" alt="CRAWN THELD.jpg">
-				<img src="pictures/293761_original.jpg" alt="293761_original.jpg">
-				<img src="pictures/293761_original.jpg" alt="293761_original.jpg">
-				<img src="pictures/Mask Group.png" alt="Mask Group.png">
-				<img src="pictures/293761_original.jpg" alt="293761_original.jpg">
+			<div class="inner_right_container">
+				<ul class="navigation">
+					<li><a href="#about">About</a></li>
+					<li><a href="#videos">Videos</a></li>
+					<li><a href="#teachers">Teachers</a></li>
+					<li><a href="#materials">Materials</a></li>
+				</ul>
 			</div>
-			<button class="carousel-btn next" onclick="moveSlide(1)">&#10095;</button>
 		</div>
+		
+		<div class="header_container">	
+			<div class="header_column left">
+				<div class="left_container">
+					<div class="textone">
+						<h1>English Classes</h1> 
+						<h1>在线青少儿一对一英语课</h1>
+					</div>
+					
+					<div class="imgtext">
+						<div class="imgtwo">
+							<img src="pictures/kids.png" alt="kids_photo" style="width:86px;" loading="lazy">
+						</div>
+						<div class="texttwo">
+							<h4>for kids ages 3-16</h4>
+							<h4>适合于 3-16 岁孩子</h4>
+						</div>
+					</div>
 
-		<h2>About Us<br>关于我们</h2>
-		<div class="container">
+					<div class="textthree">
+						<h3>Free Trial Class!</h3>
+						<h3>免费试听课!</h3>
+					</div>
+				</div>	
+			</div>
+			
+			<div class="header-column right">
+				<div class="header_right_container">
+					<img src="pictures/Group_56.png" alt="Contact_Info" style="width: 100%; max-width: 500px; margin-bottom: 5rem; margin-top: 5rem;" loading="lazy">
+				</div>		 
+			</div>
+		</div>
+	</header>
+
+	<section id="about">
+		<div class="about_us_container">
+			<div class="inner_about_us">
+				<img src="pictures/003-blackboard.png" alt="blackboard" style="width:86px;" loading="lazy">
+			</div>
+
+			<div class="about_text">
+				<h2>About Us</h2>
+				<h2>关于我们</h2>
+			</div>
+		</div>
+			
+		<div class="text_container">
 			<div class="column">
-				<p>Hi!<br>We are Speaxie, a young and passionate team of professional English teachers!</p>
+				<p>Hi!</p>
+				<p>We are Speaxie, a young and passionate team of professional English teachers!</p>
 				<p>We both lived and worked in China for more than 6 years. Since we gained most of our teaching experience in China, we know a lot about the peculiarities of working with Chinese kids of all ages.</p>
 				<p>We utilized our experience to develop an outstanding program with a unique approach to every student to help them master their English skills through fun and exciting interactive experiences.</p>
 				<p>Looking forward to bringing your English to a whole new level!</p>
 			</div>
-		  
+		
 			<div class="column">
-				<p>Hi!<br>我们是话仙子，年轻而充满激情的专业英语教师团队！</p>
+				<p>Hi!</p>
+				<p>我们是话仙子，年轻而充满激情的专业英语教师团队</p>
 				<p>我们都在中国生活和工作了6年多了。由于我们在中国获得了大量的教学经验，我们更加了解中国孩子们在各个年龄阶段的学习特点。</p>
+				<p>基于这些经验，我们专门为每一位中国学生量身定制开发了独特的课程，帮助他们通过深入、有趣和令人兴奋的互动体验掌握英语技能。我们保证你在我们的课堂上永远不会感到无聊，并且我们保证你在短短的几节课后就会注意到你的口语和听力有所提高。</p>
 				<p>期待您的英语水平再上一个新台阶！</p>
 			</div>
 		</div>
-
 		
-		<h2>Watch Our Videos<br>观看我们的视频</h2>
+		<div class="after_text__container">
+			<div class="image_main">
+				<div class="images_container">
+					<div class="photo">
+						<img src="pictures/julia-second.png" alt="julia_second" loading="lazy">
+					</div>
+				</div>
+				<div class="images_container">
+					<div class="photo">
+						<img src="pictures/crawn.jpg" alt="crawn" loading="lazy">
+					</div>
+				</div>
+				<div class="images_container">
+					<div class="photo">
+						<img src="pictures/julia_first.png" alt="julia_first" loading="lazy">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--
+		<div class="carousel-container">
+			<button class="carousel-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+			<div class="carousel">
+				<img src="pictures/The_Unknown_Forest.jpeg" alt="The Unknown Forest" loading="lazy">
+				<img src="pictures/CRAWN THELD.jpg" alt="CRAWN THELD.jpg" loading="lazy">
+				<img src="pictures/293761_original.jpg" alt="293761_original.jpg" loading="lazy">
+				<img src="pictures/293761_original.jpg" alt="293761_original.jpg" loading="lazy">
+				<img src="pictures/Mask Group.png" alt="Mask Group.png" loading="lazy">
+				<img src="pictures/293761_original.jpg" alt="293761_original.jpg" loading="lazy">
+			</div>
+			<button class="carousel-btn next" onclick="moveSlide(1)">&#10095;</button>
+		</div>
+	-->
+	<section id="videos">
+		<div class="about_us_container">
+			<div class="inner_about_us">
+				<img src="pictures/camera.png" alt="camera" style="width:86px;" loading="lazy">
+			</div>
+
+			<div class="about_text">
+				<h2>Video Lessons</h2>
+				<h2>观看我们的视频</h2>
+			</div>
+		</div>
+
 		<div class="video-container">
 			<div class="video-slot">
-				<iframe loading="lazy" src="https://www.youtube.com/embed/vQ5c70DyIdY" title="Introduction to our classes" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe loading="lazy" src="https://www.youtube.com/embed/wjP49R8Ly88" title="Introduction to our classes" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				<div class="video_text">
+					<h3>Lesson 1</h3>
+					<p>Some text about video</p>
+				</div>
 			</div>
 			
 			<div class="video-slot">
-				<iframe loading="lazy" src="https://www.youtube.com/embed/VIDEO_ID_2" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe loading="lazy" src="https://www.youtube.com/embed/qzQ5tYAQwtw" title="Lesson 2" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				<div class="video_text">
+					<h3>Lesson 2</h3>
+					<p>Some text about video</p>
+				</div>
 			</div>
 
 			<div class="video-slot">
-				<iframe loading="lazy" src="https://www.youtube.com/embed/VIDEO_ID_3" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe loading="lazy" src="https://www.youtube.com/embed/hlLom06NrtY" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				<div class="video_text">
+					<h3>Lesson 3</h3>
+					<p>Some text about video</p>
+				</div>
+			</div>
+		</div>
+	</section>
+		
+	<section id="teachers">
+		<div class="about_us_container">
+			<div class="inner_about_us">
+				<img src="pictures/faces.png" alt="faces" style="width:86px;" loading="lazy">
+			</div>
+
+			<div class="about_text">
+				<h2>Our Team</h2>
+				<h2>我们的老师</h2>
+			</div>
+		</div>
+
+		<div class="our_team_container">
+			<div class="inner_our_team_container">
+				<img src="pictures/lulia_cropped.jpg" alt="lulia_teacher" loading="lazy">
+			</div>
+
+			<div class="our_team_text_container">
+				<div class="who_is">
+					<h2>Teacher Julie</h2>
+				</div>
+				<div class="inner_our_team_text">
+					<div class="en_our_team_text">
+						<p>Hi, everyone!</p>
+						<p>My name is Julie and I'm a professional English teacher.  I specialize in teaching preschoolers and primary school students. Teaching English to kids can often be very challenging. That's why I use individual approach that will help children to learn English in a fun and playful way. My goal is to encourage students to freely communicate in English without fear of making mistakes.</p>
+					</div>
+					<div class="ch_our_team_text">
+						<p>大家好！</p>
+						<p>我叫Julie。我是一位专业英语教师。我专门负责学龄前儿童和小学生的英语教学。教孩子们英语常常是很有挑战性的，这就是为什么我使用一些特殊的教学方法，这将有助于孩子们以一种有趣的好玩的方式学习英语。我的目标是鼓励学生用英语自由交流，而不必担心犯错。</p>
+					</div>
+				</div>
+			</div>
+				
+			<div class="contact_us_our_team">
+				<div class="inner_contact_us">
+					<h2>Contact us</h2>
+					<h2>联系我们</h2>
+				</div>
+				<div class="inst_telegr">
+					<a href="https://t.me/julie_moss" target="_blank" class="telegram-button">
+					<img src="pictures/telegram.png" alt="telegram" class="telegram_icon" style="width:56px" loading="lazy"></a>
+					<a href="https://instagram.com/purrr_meow" target="_blank" class="telegram-button">
+					<img src="pictures/instagram.png" alt="instagram" class="telegram_icon" style="width:56px" loading="lazy"></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="our_team_container">
+			<div class="inner_our_team_container">
+				<img src="pictures/polisha_2_cropped.jpg" alt="polisha_2_cropped" loading="lazy">
+			</div>
+			<div class="our_team_text_container">
+				<div class="who_is">
+					<h2>Teacher Polly</h2>
+				</div>
+				<div class="inner_our_team_text">
+					<div class="en_our_team_text">
+						<p>Hi, everyone!</p>
+						<p>My name is Polly and I'm a professional English teacher.  I specialize in teaching preschoolers and primary school students. Teaching English to kids can often be very challenging. That's why I use individual approach that will help children to learn English in a fun and playful way. My goal is to encourage students to freely communicate in English without fear of making mistakes.</p>
+					</div>
+					<div class="ch_our_team_text">
+						<p>大家好！</p>
+						<p>我叫Polly。我是一位专业英语教师。我专门负责学龄前儿童和小学生的英语教学。教孩子们英语常常是很有挑战性的，这就是为什么我使用一些特殊的教学方法，这将有助于孩子们以一种有趣的好玩的方式学习英语。我的目标是鼓励学生用英语自由交流，而不必担心犯错。</p>
+					</div>
+				</div>
+			</div>
+				
+			<div class="contact_us_our_team">
+				<div class="inner_contact_us">
+					<h2>Contact us</h2>
+					<h2>联系我们</h2>
+				</div>
+				<div class="inst_telegr">
+					<a href="https://t.me/pollyclassin" target="_blank" class="telegram-button">
+					<img src="pictures/telegram.png" alt="telegram" class="telegram_icon" style="width:56px" loading="lazy"></a>
+					<a href="https://instagram.com/purrr_meow" target="_blank" class="telegram-button">
+					<img src="pictures/instagram.png" alt="instagram" class="instagram_icon" style="width:56px" loading="lazy"></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="materials">
+		<div class="about_us_container">
+			<div class="inner_about_us">
+				<img src="pictures/materials.png" alt="materials" style="width:86px;" loading="lazy">
+			</div>
+
+			<div class="about_text">
+				<h2>Our Materials</h2>
+				<h2>我们的教材</h2>
 			</div>
 		</div>
 		
+		<div class="our_materials_container">
+			<div class="inner_our_materials">
+				<div class="box">
+					<img src="pictures/reading.png" alt="reading" loading="lazy">
+					<h3>First Reading</h3>
+					<p>See Material Sample</p>
+				</div>
+				
+				<div class="box">
+					<img src="pictures/learning.png" alt="learning" loading="lazy">
+					<h3>Little Hands</h3>
+					<p>See Material Sample</p>
+				</div>
 
+				<div class="box">
+					<img src="pictures/phoenix.png" alt="phonix" loading="lazy">
+					<h3>Phonics</h3>
+					<p>See Material Sample</p>
+				</div>
+
+				<div class="box">
+					<img src="pictures/smart.png" alt="smart" loading="lazy">
+					<h3>Smart English</h3>
+					<p>See Material Sample</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="mat_semp_buttons_container">
+			<div class="inner_mat_semp">
+				<div class="mat_semp_button">
+					<button>See Material Sample</button>
+					<button >See Material Sample</button>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+	<section>
+		<div class="about_us_container">
+			<div class="inner_about_us">
+				<img src="pictures/moments_class.png" alt="moments_class" style="width:86px;" loading="lazy">
+			</div>
+
+			<div class="about_text">
+				<h2>Moments From Our Classes</h2>
+				<h2>课堂演示</h2>
+			</div>
+		</div>
+
+		<div class="video-container">
+			<div class="video-slot">
+				<iframe loading="lazy" src="https://www.youtube.com/embed/GKyF2p6o-Hs" title="Introduction to our classes" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				<div class="video_text">
+					<h3>Lesson 1</h3>
+					<p>Some text about video</p>
+				</div>
+			</div>
+			
+			<div class="video-slot">
+				<iframe loading="lazy" src="https://www.youtube.com/embed/8irSFvoyLHQ" title="Lesson 2" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				<div class="video_text">
+					<h3>Lesson 2</h3>
+					<p>Some text about video</p>
+				</div>
+			</div>
+
+			<div class="video-slot">
+				<iframe loading="lazy" src="https://www.youtube.com/embed/hlLom06NrtY" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+				<div class="video_text">
+					<h3>Lesson 3</h3>
+					<p>Some text about video </p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="about_us_container">
+			<div class="inner_about_us">
+				<img src="pictures/testimates.png" alt="moments_class" style="width:86px;" loading="lazy">
+			</div>
+
+			<div class="about_text">
+				<h2>Reviews From Our Happy Parents</h2>
+				<h2>家长评价</h2>
+			</div>
+		</div>
+
+	<div class="testimates_container">
+		<div class="inner_testimates_container">
+			<div class="photo_name_stars">
+				<img src="pictures/boy.png" alt="boy" style="width: 76px;" loading="lazy">
+				<div class="some_text">
+					<h3>Justin</h3>
+					<div class="stars">★★★★★</div>
+				</div>
+			</div>
+				<p class="reviev_text">Justin 很喜欢，每次告诉他要上课了都会很兴奋，自己会主动问下节课是什么时候。老师很好，既有老师的威严又有亲和力，适合Justin这种坐不住的孩子。他上课的时候因为老师带动得好，还能玩游戏，一直都挺集中的。
+				</p>
+			<div class="review-date">
+				<p>21.02.2025 20:19</p>
+			</div>
+		</div>
+
+		<div class="inner_testimates_container">
+			<div class="photo_name_stars">
+				<img src="pictures/boy.png" alt="boy" style="width: 76px;" loading="lazy">
+				<div class="some_text">
+					<h3>Justin</h3>
+					<div class="stars">★★★★★</div>
+				</div>
+			</div>
+				<p class="reviev_text">Henry 很喜欢，每次告诉他要上课了都会很兴奋，自己会主动问下节课是什么时候。老师很好，既有老师的威严又有亲和力，适合Justin这种坐不住的孩子。他上课的时候因为老师带动得好，还能玩游戏，一直都挺集中的。
+				</p>
+			<div class="review-date">
+				<p>21.02.2025 20:19</p>
+			</div>
+		</div>
+	</div>
+	</section>
+
+
+
+
+<!--
 	<div class="last-container"> 
 		<div class="quiz-container column-left">
 			<h2>Simple Quiz</h2>
 			<div class="quiz-question">
-				<p>1. What is the capital of France?</p>
+				<p>1. Ashley is regarded as quite ______, greeting every challenge with enthusiasm and excitement.</p>
 				<ul class="quiz-options" data-correct="c">
-					<li><label><input type="radio" name="question1" value="a"> A. Berlin</label></li>
-					<li><label><input type="radio" name="question1" value="b"> B. Madrid</label></li>
-					<li><label><input type="radio" name="question1" value="c"> C. Paris</label></li>
+					<li><label><input type="radio" name="question1" value="a"> A. comforting</label></li>
+					<li><label><input type="radio" name="question1" value="b"> B. tranquil</label></li>
+					<li><label><input type="radio" name="question1" value="c"> C. assertive</label></li>
 				</ul>
-			</div>
+			</div><br>
 		
 			<div class="quiz-question">
-				<p>2. What is 2 + 2?</p>
+				<p>2. Can you take it to the ______? Peter is in there, cooking dinner.</p>
 				<ul class="quiz-options" data-correct="b">
-					<li><label><input type="radio" name="question2" value="a"> A. 3</label></li>
-					<li><label><input type="radio" name="question2" value="b"> B. 4</label></li>
-					<li><label><input type="radio" name="question2" value="c"> C. 5</label></li>
+					<li><label><input type="radio" name="question2" value="a"> A. dining room</label></li>
+					<li><label><input type="radio" name="question2" value="b"> B. sitting room</label></li>
+					<li><label><input type="radio" name="question2" value="c"> C. kitchen</label></li>
 				</ul>
-			</div>
+			</div><br>
 
 			<div class="quiz-question">
-				<p>3. Which planet is known as the Red Planet?</p>
+				<p>3. Juan was a very competent manager, but he ______ with time-keeping.</p>
 				<ul class="quiz-options" data-correct="a">
-					<li><label><input type="radio" name="question3" value="a"> A. Mars</label></li>
-					<li><label><input type="radio" name="question3" value="b"> B. Venus</label></li>
-					<li><label><input type="radio" name="question3" value="c"> C. Jupiter</label></li>
+					<li><label><input type="radio" name="question3" value="a"> A. interfered</label></li>
+					<li><label><input type="radio" name="question3" value="b"> B. struggled</label></li>
+					<li><label><input type="radio" name="question3" value="c"> C. collided</label></li>
 				</ul>
-			</div>
+			</div><br>
 
 			<div class="quiz-question">
-				<p>4. What is the boiling point of water?</p>
+				<p>4. In order to find him, they needed to know his exact ______.</p>
 				<ul class="quiz-options" data-correct="b">
-					<li><label><input type="radio" name="question4" value="a"> A. 90°C</label></li>
-					<li><label><input type="radio" name="question4" value="b"> B. 100°C</label></li>
-					<li><label><input type="radio" name="question4" value="c"> C. 110°C</label></li>
+					<li><label><input type="radio" name="question4" value="a"> A. location</label></li>
+					<li><label><input type="radio" name="question4" value="b"> B. place</label></li>
+					<li><label><input type="radio" name="question4" value="c"> C. site</label></li>
 				</ul>
-			</div>
+			</div><br>
 
 			<div class="quiz-question">
-				<p>5. Who wrote "Romeo and Juliet"?</p>
+				<p>5. She was really worried about her final exam, but in the end, she ______ it with no problems.</p>
 				<ul class="quiz-options" data-correct="a">
-					<li><label><input type="radio" name="question5" value="a"> A. William Shakespeare</label></li>
-					<li><label><input type="radio" name="question5" value="b"> B. Charles Dickens</label></li>
-					<li><label><input type="radio" name="question5" value="c"> C. Jane Austen</label></li>
+					<li><label><input type="radio" name="question5" value="a"> A. got through</label></li>
+					<li><label><input type="radio" name="question5" value="b"> B. got over</label></li>
+					<li><label><input type="radio" name="question5" value="c"> C. got under</label></li>
 				</ul>
-			</div>
+			</div><br>
 		      
 	  
 		<button onclick="submitQuiz()">Submit</button>
@@ -168,9 +466,14 @@
 			</form>
 		</div>	
 	</div>
-	</main>
-
-	<footer>Hey There School &copy; 2025</footer> 
-
+</section>
+-->
+<!--
+	<footer>
+		<div class="footer">
+			HiTHERE School &copy; 2025
+		</div>
+	</footer> 
+-->
 </body>
 </html>
